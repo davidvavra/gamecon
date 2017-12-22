@@ -52,6 +52,11 @@ class DateTimeCz extends DateTime
     return parent::format('Y-m-d H:i:s');
   }
 
+  /** Vrací běžně používaný formát data - tvar d.m.yyyy*/
+  function formatDatumStandard() {
+    return parent::format('j.n.Y');
+  }
+
   /** Vrací blogový/dopisový formát */
   function formatBlog() {
     return strtr(parent::format('j. F Y'), self::$mesice);
