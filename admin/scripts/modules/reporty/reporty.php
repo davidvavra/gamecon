@@ -31,7 +31,8 @@ $reporty = [
   ['maily-prihlaseni',  'Maily – přihlášení na GC (vč. unsubscribed)', ['csv', 'html']],
   ['maily-neprihlaseni','Maily – nepřihlášení na GC',             ['csv', 'html']],
   ['maily-vypraveci',   'Maily – vypravěči (vč. unsubscribed)',   ['csv', 'html']],
-  ['maily-vsichni',     'Maily – všichni',                        ['csv', 'html']],
+  ['maily-prvnich-2000',     'Maily - nedávní účastníci (prvních 2000)',                        ['csv', 'html']],
+  ['maily-dalsi-po-2000',     'Maily - dávní účastníci (zbytek)',                        ['csv', 'html']],
   ['celkovy-report',    '<br>Celkový report '.ROK.'<br><br>',     ['csv', 'html']],
 ];
 
